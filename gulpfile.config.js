@@ -1,8 +1,8 @@
 
 export  default {
     port: 5280,
-    startPath: '/v1.0.0', // Specifies the exact location/tab to open
-    browser: 'google chrome',          // Optional: Force a specific browser
+    startPath: '/',  // Specifies the exact location/tab to open
+    browser: 'google chrome',  // Optional: Force a specific browser
     open: true,
     server: {
         baseDir: './',

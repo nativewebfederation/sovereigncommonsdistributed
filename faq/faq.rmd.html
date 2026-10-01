@@ -1,0 +1,21 @@
+
+<body>
+    <template></template>
+    <style></style>
+    <script src="/lib/marked.min.js"></script>
+    <script>
+        const template = document.querySelector('template');
+        const style = document.querySelector('style');
+        const promise = fetch('/faq/faq.md')
+            .then( response => response.text() )
+            ;
+        const text = promise
+            .then( markdown => marked.parse(markdown) )
+            ;
+        const appended = text
+            .then( markup => template.innerHTML = markup )
+            .then( markup => template.appendChild(style) )
+            ;
+        appended.then( x => frameElement.replaceWith(template.content) );
+    </script>
+</body>

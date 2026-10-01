@@ -19,7 +19,7 @@
     --color-callout: var(--green-7);
 }
 
-body {
+html, body {
     color: var(--color-text);
     background-color: var(--color-background);
 }
