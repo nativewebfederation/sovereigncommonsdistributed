@@ -1,20 +1,30 @@
 
+<head>
+    <base href="/sovereigncommonsdistributed/faq/" target="_top" />
+</head>
 <body>
-    <template></template>
-    <style></style>
-    <script src="/sovereigncommonsdistributed/lib/marked.min.js"></script>
+    <template>
+        <div class="faq content"></div>
+    </template>
+    <style>
+        .faq.content {
+            padding-inline: var(--offset);
+        }
+    </style>
+    <script src="/lib/marked.min.js"></script>
     <script>
         const template = document.querySelector('template');
+        const container = template.content.querySelector('.faq.content');
         const style = document.querySelector('style');
-        const promise = fetch('/sovereigncommonsdistributed/faq/faq.md')
+        const promise = fetch('faq.md')
             .then( response => response.text() )
             ;
         const text = promise
             .then( markdown => marked.parse(markdown) )
             ;
         const appended = text
-            .then( markup => template.innerHTML = markup )
-            .then( markup => template.appendChild(style) )
+            .then( markup => container.innerHTML = markup )
+            .then( markup => template.content.appendChild(style) )
             ;
         appended.then( x => frameElement.replaceWith(template.content) );
     </script>
