@@ -52,6 +52,19 @@ A: Successfully mitigating automated network scavenging delivers critical operat
 
 While automated script engines will inevitably engage in an ongoing, adversarial "cat-and-mouse game" to adapt to this architecture, this pattern establishes the foundational data and benchmarking matrices required to ensure the web remains a free, open, and performant utility for human creators.
 
+## Q: If the RMD architecture functions as a natural bot signal-jammer, will it inadvertently impact beneficial bots used for search engine optimization (SEO)?
+A: During early technical milestones, certain automated systems may encounter parsing hurdles due to the decoupled runtime nature of the pattern. However, this optimization friction is isolated, controllable, and temporary.
+
+The long-term resolution is hardcoded directly into the roadmap. In Phase 7 (W3C Blink Engine Integration & Governance), the Native Web Federation is specifying a formal, browser-native custom element that explicitly supports standard crawlers. This native primitive will include a standardized execution attribute (e.g., follow="true"), signaling verified search engine indexing spikes to natively parse and map the underlying module text as a high-authority structural component of the document shell.
+
+Prior to the global deployment of the Phase 7 primitive, engineers and digital content creators can utilize a highly strategic, selective deployment methodology to maintain flawless search ranking performance:
+
+* **Isolated Perimeter Defense**: The Remote Module Definition (RMD) pattern can be applied exclusively to targeted application zones that demand absolute security barriers — such as raw data input forms, dynamic calculation engines, sensitive dashboard views, and layouts handling confidential PII or PHI under strict HIPAA and GDPR mandates.
+
+* **Public Content Insulation**: Standard, static informational pages and public index blogs can continue to utilize standard DOM layouts, ensuring that Google, Bing, and other beneficial crawlers experience zero indexing friction.
+
+* **Granular Intellectual Property Governance**: Independent content authors, technical media networks, and enterprises retain complete engineering flexibility. They can dynamically tighten or loosen these architectural constraints to match their specific digital asset profiles, allowing them to explicitly protect proprietary intellectual property from unauthorized data scavenging and un-consented AI training loops without sacrificing public discoverability.
+
 ## Q: If this reference infrastructure is distributed under free MIT and CC-BY licensing, what protects the standard from proprietary enclosure?
 A: Code availability is distinct from architectural authority. While any entity is legally free to build on, extend, or utilize these open-source patterns natively forever, copycat implementations lack the comprehensive macro-vision, the network parameter blueprints for Content Domain Name Server (CDNS) layers, and the academic peer-review governance required to operate the official Native Web Federation. By centralizing the formal specifications, automated conformance suites, and performance ledgers within this repository, the Native Web Federation remains the definitive global source of truth for the standard.
 
